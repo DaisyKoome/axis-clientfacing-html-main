@@ -1,0 +1,88 @@
+body{
+    background:transparent;
+    color: #fff;
+  }
+  
+  .main{
+    width:250px;
+    height:250px;
+    border:2px solid #925b3e;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main2{
+    width:345px;
+    height:345px;
+    border:3px solid #925b3e;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+  
+  .circle{
+    width:28px;
+    height:28px;
+    background:#54cf61;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 18s linear infinite;
+  }
+
+  .circle2{
+    width:28px;
+    height:28px;
+    background:#ffffff;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle2 14s linear infinite;
+  }
+  
+  @keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-122px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-122px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circle2{
+    0%{
+      transform:rotate(0deg)
+                translate(-170px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-170px)
+                rotate(-360deg);
+    }
+  }
+  
+  .img-chic {
+    display: flex;
+    justify-content: center;
+    margin-top: -84px !important;
+}
+
+img.chic {
+  width: 530px !important;
+  height: 414px !important;
+  max-width: 500%;
+}
